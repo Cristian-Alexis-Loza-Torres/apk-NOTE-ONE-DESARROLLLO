@@ -12,7 +12,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         // Establecer el retraso en milisegundos
-        val splashScreenDelay: Long = 3000
+        val splashScreenDelay: Long = 2500
 
         // Usar Handler para esperar el tiempo especificado antes de iniciar NoteActivity
         Handler(Looper.getMainLooper()).postDelayed({

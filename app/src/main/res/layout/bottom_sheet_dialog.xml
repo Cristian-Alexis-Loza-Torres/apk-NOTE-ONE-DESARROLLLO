@@ -4,12 +4,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/bottomSheetParent"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bottomSheetContainer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo">
 
         <ImageView
             android:id="@+id/bar"
@@ -22,14 +24,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/shape_image" />
+            android:background="@drawable/fondo" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/addImage"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="?attr/selectableItemBackground"
+            android:background="@drawable/fondo"
             android:clickable="true"
             android:drawableStart="@drawable/ic_round_add_a_photo_24"
             android:drawablePadding="10dp"
@@ -47,7 +49,7 @@
         android:id="@+id/selectImage"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
+        android:background="@drawable/fondo"
         android:clickable="true"
         android:drawableStart="@drawable/ic_round_add_photo_alternate_24"
         android:drawablePadding="10dp"
@@ -74,7 +76,8 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/selectImage" />
+        app:layout_constraintTop_toBottomOf="@id/selectImage"
+        android:background="@drawable/fondo"/>
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -82,7 +85,8 @@
         android:scrollbars="none"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/addColor">
+        app:layout_constraintTop_toBottomOf="@id/addColor"
+        android:background="@drawable/fondo">
 
         <com.thebluealliance.spectrum.SpectrumPalette
             android:id="@+id/colorPicker"
@@ -93,7 +97,8 @@
             app:spectrum_autoPadding="true"
             app:spectrum_colors="@array/color_picker"
             app:spectrum_columnCount="16"
-            app:spectrum_outlineWidth="0.1dp" />
+            app:spectrum_outlineWidth="0.1dp"
+            android:background="@drawable/fondo"/>
 
     </HorizontalScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>

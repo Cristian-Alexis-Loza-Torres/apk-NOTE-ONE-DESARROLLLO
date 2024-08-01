@@ -8,7 +8,7 @@
     android:id="@+id/noteItemLayoutParent"
     android:clickable="true"
     android:focusable="true"
-    android:background="?attr/selectableItemBackground"
+    android:background="@drawable/fondo"
     app:cardCornerRadius="13dp"
     app:cardElevation="5dp">
 
