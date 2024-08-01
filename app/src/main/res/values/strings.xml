@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NOTE-ONE</string>
+    <string name="app_action_bar_text">NOTE ONE</string>
+
+    <string name="back">atrás</string>
+    <string name="save">guardar</string>
+    <string name="title">Título</string>
+    <string name="note">Nota</string>
+    <string name="some_text">Este es un texto de prueba para las notas. Puedes agregar, editar o eliminar contenido como desees.</string>
+
+    <string name="this_is_a_title">¿Qué es Lorem Ipsum?</string>
+    <string name="dd_mm_yyyy">dd/mm/aaaa</string>
+    <string name="edited_on">Editado el: %1$s</string>
+    <string name="search_here">Buscar aquí…</string>
+    <string name="clear">borrar</string>
+    <string name="choose_color">Seleccionar Color</string>
+    <string name="add_note">Agregar Nota</string>
+    <string name="no_data_image">imagen sin datos</string>
+    <string name="noteContentImage">ImagenDeContenidoDeNota</string>
+    <string name="add_image">Tomar Foto</string>
+    <string name="delete">Eliminar</string>
+    <string name="fileAuthority">com.gamdestroyerr.roomnote.fileProvider</string>
+    <string name="select_image">Seleccionar Imagen</string>
+    <string name="fab">fab</string>
+    <string name="short_label">Nueva Nota</string>
+    <string name="long_label">Agregar Nueva Nota</string>
+    <string name="disabled_message">Acceso directo de Nueva Nota Deshabilitado</string>
+    <string name="delete_fab">eliminarFab</string>
+
+</resources>
