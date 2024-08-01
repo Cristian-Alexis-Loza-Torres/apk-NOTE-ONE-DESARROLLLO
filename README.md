@@ -1,11 +1,11 @@
-# NotaOne
+# NoteOne
 
 Fecha: 30/04/2024  
 Autor: Loza Torres Cristian Alexis
 
 ## Descripción de la Aplicación Móvil
 
-La aplicación **NotaOne** es una solución innovadora para la gestión de notas y tareas en dispositivos móviles. Con una interfaz amigable y fácil de usar, NotaOne permite a los usuarios crear, editar y organizar sus notas y tareas de manera eficiente, mejorando significativamente su productividad y organización.
+La aplicación **NoteOne** es una solución innovadora para la gestión de notas y tareas en dispositivos móviles. Con una interfaz amigable y fácil de usar, NotaOne permite a los usuarios crear, editar y organizar sus notas y tareas de manera eficiente, mejorando significativamente su productividad y organización.
 
 ### Características Principales
 
